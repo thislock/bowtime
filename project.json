@@ -13,24 +13,14 @@
             "broadcasts": {},
             "customVars": [],
             "blocks": {},
-            "comments": {
-                "h": {
-                    "blockId": null,
-                    "x": 50,
-                    "y": 50,
-                    "width": 350,
-                    "height": 170,
-                    "minimized": false,
-                    "text": "Configuration for https://penguinmod.com/\nYou can move, resize, and minimize this comment, but don't edit it by hand. This comment can be deleted to remove the stored settings.\n{} // _twconfig_"
-                }
-            },
+            "comments": {},
             "currentCostume": 0,
             "costumes": [
                 {
                     "name": "backdrop1",
                     "dataFormat": "svg",
-                    "assetId": "f82f50d42833251e922d2fe26fbf1772",
-                    "md5ext": "f82f50d42833251e922d2fe26fbf1772.svg",
+                    "assetId": "cd21514d0531fdffb22204e0ec5ed84a",
+                    "md5ext": "cd21514d0531fdffb22204e0ec5ed84a.svg",
                     "rotationCenterX": 240,
                     "rotationCenterY": 180
                 }
@@ -47,141 +37,30 @@
         },
         {
             "isStage": false,
-            "name": "shithead",
+            "name": "im scary",
             "variables": {},
             "lists": {},
             "broadcasts": {},
             "customVars": [],
             "blocks": {
-                "f": {
-                    "opcode": "event_whenflagclicked",
-                    "next": "a",
-                    "parent": null,
-                    "inputs": {},
-                    "fields": {},
-                    "shadow": false,
-                    "topLevel": true,
-                    "x": 259,
-                    "y": 354
-                },
-                "g": {
-                    "opcode": "motion_turnright",
+                "a": {
+                    "opcode": "control_wait",
                     "next": null,
-                    "parent": "b",
+                    "parent": null,
                     "inputs": {
-                        "DEGREES": [
+                        "DURATION": [
                             1,
                             [
-                                4,
+                                5,
                                 "1"
                             ]
                         ]
                     },
                     "fields": {},
                     "shadow": false,
-                    "topLevel": false
-                },
-                "c": {
-                    "opcode": "control_forever",
-                    "next": null,
-                    "parent": "d",
-                    "inputs": {
-                        "SUBSTACK": [
-                            2,
-                            "b"
-                        ]
-                    },
-                    "fields": {},
-                    "shadow": false,
-                    "topLevel": false,
-                    "mutation": {
-                        "tagName": "mutation",
-                        "children": [],
-                        "hasbreak": "false"
-                    }
-                },
-                "b": {
-                    "opcode": "looks_say",
-                    "next": "g",
-                    "parent": "c",
-                    "inputs": {
-                        "MESSAGE": [
-                            1,
-                            [
-                                10,
-                                "im a bitch"
-                            ]
-                        ]
-                    },
-                    "fields": {},
-                    "shadow": false,
-                    "topLevel": false
-                },
-                "a": {
-                    "opcode": "looks_setColor",
-                    "next": "e",
-                    "parent": "f",
-                    "inputs": {
-                        "color": [
-                            1,
-                            [
-                                9,
-                                "#c034c1"
-                            ]
-                        ]
-                    },
-                    "fields": {
-                        "prop": [
-                            "BUBBLE_STROKE",
-                            ",0pqX=@*GR`4W^UFj/{U"
-                        ]
-                    },
-                    "shadow": false,
-                    "topLevel": false
-                },
-                "e": {
-                    "opcode": "looks_setColor",
-                    "next": "d",
-                    "parent": "a",
-                    "inputs": {
-                        "color": [
-                            1,
-                            [
-                                9,
-                                "#c034c1"
-                            ]
-                        ]
-                    },
-                    "fields": {
-                        "prop": [
-                            "TEXT_FILL",
-                            "{m-at/xDV,JI43hG:IVL"
-                        ]
-                    },
-                    "shadow": false,
-                    "topLevel": false
-                },
-                "d": {
-                    "opcode": "looks_setColor",
-                    "next": "c",
-                    "parent": "e",
-                    "inputs": {
-                        "color": [
-                            1,
-                            [
-                                9,
-                                "#000000"
-                            ]
-                        ]
-                    },
-                    "fields": {
-                        "prop": [
-                            "BUBBLE_FILL",
-                            "@o:VujqV6v:VOngHntfk"
-                        ]
-                    },
-                    "shadow": false,
-                    "topLevel": false
+                    "topLevel": true,
+                    "x": 535,
+                    "y": 160
                 }
             },
             "comments": {},
@@ -191,21 +70,30 @@
                     "name": "costume1",
                     "bitmapResolution": 1,
                     "dataFormat": "svg",
-                    "assetId": "6bcde8a1ae154574d6d00b7877266488",
-                    "md5ext": "6bcde8a1ae154574d6d00b7877266488.svg",
-                    "rotationCenterX": 71.92259528440744,
-                    "rotationCenterY": 118.51157620651324
+                    "assetId": "ac34750245995f87e97c73af0f2803c3",
+                    "md5ext": "ac34750245995f87e97c73af0f2803c3.svg",
+                    "rotationCenterX": 84.53432038543878,
+                    "rotationCenterY": 106.59545407203089
                 }
             ],
-            "sounds": [],
-            "id": "s=n7q||@yTfP(,Y|2LD)",
+            "sounds": [
+                {
+                    "name": "Squawk",
+                    "assetId": "e140d7ff07de8fa35c3d1595bba835ac",
+                    "dataFormat": "wav",
+                    "rate": 48000,
+                    "sampleCount": 17867,
+                    "md5ext": "e140d7ff07de8fa35c3d1595bba835ac.wav"
+                }
+            ],
+            "id": "5I9nI;7P)jdiR-_X;/%l",
             "volume": 100,
             "layerOrder": 1,
             "visible": true,
             "x": 0,
             "y": 0,
             "size": 100,
-            "direction": 172,
+            "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
             "extensionData": {}
@@ -217,7 +105,6 @@
     "meta": {
         "semver": "3.0.0",
         "vm": "0.2.0",
-        "origin": "PenguinMod",
         "agent": "",
         "platform": {
             "name": "PenguinMod",
